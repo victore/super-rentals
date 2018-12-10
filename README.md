@@ -2,6 +2,15 @@
 
 An app for a property rental site called Super Rentals. We'll start with a homepage, an about page and a contact page.
 
+We want our application to:
+
+Show rentals on the home page
+Link to information about the company
+Link to contact information
+List the available rentals
+Filter the list of rentals by city
+Show more details for a selected rental
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
