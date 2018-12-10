@@ -1,7 +1,6 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An app for a property rental site called Super Rentals. We'll start with a homepage, an about page and a contact page.
 
 ## Prerequisites
 
