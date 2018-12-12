@@ -5,7 +5,16 @@
   {{#link-to "about" class="button"}}
     About Us
   {{/link-to}}
-  {{#each model as |rentalUnit|}}
-    {{rental-listing rental=rentalUnit}}
-  {{/each}}
+  {{#list-filter
+    filter=(action "filterByCity")
+  as |filteredResults|
+  }}
+    <ul class="results">
+      {{#each filteredResults as |rentalUnit|}}
+        <li>{{rental-listing rental=rentalUnit}}</li>
+      {{/each}}
+    </ul>
+  {{/list-filter}}
+  {{outlet}}
+
 </div>
